@@ -3,6 +3,7 @@ module.exports = {
         'no-var': 'warn',
         'prefer-template': 'warn',
         'prefer-arrow-callback': 'warn',
+        'object-shorthand': ['error', 'methods'],
     },
     'env': {
         'node': true,
