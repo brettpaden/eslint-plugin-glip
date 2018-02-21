@@ -40,6 +40,7 @@ module.exports = {
 				'multiline-ternary': ['error', 'always-multiline'],
 				'no-continue': 'off', // Allows use of continue statements
 				'global-require': 'off',
+				'space-before-function-paren': ['error', 'never'],
 			},
 		},
 		server_es6: require('./server_es6.js'),
