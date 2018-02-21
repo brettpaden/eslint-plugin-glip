@@ -1,0 +1,56 @@
+{
+  "name": "eslint-plugin-glip",
+  "version": "0.0.1",
+  "description": "Eslint plugin to support certain Glip idiosyncrasies, like no camel case",
+  "dependencies": {
+      "eslint": "4.17.0",
+      "eslint-plugin-import": "2.7.0",
+      "eslint-config-airbnb-base" : "12.1.0",
+      "eslint-plugin-es5": "1.2.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brettpaden/eslint-plugin-glip.git"
+  },
+  "keywords": [
+    "eslint",
+    "plugin",
+    "camelcase"
+  ],
+  "author": {
+    "name": "Brett Paden"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brettpaden/eslint-plugin-glip/issues"
+  },
+  "homepage": "https://github.com/brettpaden/eslint-plugin-glip#readme",
+  "gitHead": "70132aa1ec5fad6493b1ce64abfdfafbdc134ab1",
+  "_id": "eslint-plugin-glip@0.0.1",
+  "_shasum": "eba1e72117fb8e03be7e95c160c759518e816216",
+  "_from": "eslint-plugin-glip@latest",
+  "_npmVersion": "2.14.20",
+  "_nodeVersion": "4.4.1",
+  "_npmUser": {
+    "name": "brettpaden",
+    "email": "brettpaden@gmail.com"
+  },
+  "dist": {
+    "shasum": "eba1e72117fb8e03be7e95c160c759518e816216",
+    "tarball": "http://nexus.dev.glip.net:8888/repository/npm-all/eslint-plugin-glip/-/eslint-plugin-glip-0.0.1.tgz"
+  },
+  "maintainers": [{
+    "name": "brettpaden",
+    "email": "brettpaden@gmail.com"
+  }],
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/eslint-plugin-glip-0.0.1.tgz_1517408727853_0.5146140647120774"
+  },
+  "directories": {},
+  "_resolved": "http://nexus.dev.glip.net:8888/repository/npm-all/eslint-plugin-glip/-/eslint-plugin-glip-0.0.1.tgz"
+}
