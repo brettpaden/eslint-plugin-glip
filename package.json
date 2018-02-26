@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-glip",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Eslint plugin to support certain Glip idiosyncrasies, like no camel case",
   "dependencies": {
       "eslint": "4.17.0",
