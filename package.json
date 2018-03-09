@@ -1,12 +1,12 @@
 {
   "name": "eslint-plugin-glip",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Eslint plugin to support certain Glip idiosyncrasies, like no camel case",
   "peerDependencies": {
-      "eslint": "4.17.0",
-      "eslint-plugin-import": "2.7.0",
-      "eslint-config-airbnb-base" : "12.1.0",
-      "eslint-plugin-es5": "1.2.0"
+    "eslint": "4.17.0",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-es5": "1.2.0"
   },
   "main": "index.js",
   "scripts": {
@@ -46,10 +46,12 @@
     "shasum": "eba1e72117fb8e03be7e95c160c759518e816216",
     "tarball": "http://nexus.dev.glip.net:8888/repository/npm-all/eslint-plugin-glip/-/eslint-plugin-glip-0.0.1.tgz"
   },
-  "maintainers": [{
-    "name": "brettpaden",
-    "email": "brettpaden@gmail.com"
-  }],
+  "maintainers": [
+    {
+      "name": "brettpaden",
+      "email": "brettpaden@gmail.com"
+    }
+  ],
   "_npmOperationalInternal": {
     "host": "s3://npm-registry-packages",
     "tmp": "tmp/eslint-plugin-glip-0.0.1.tgz_1517408727853_0.5146140647120774"
