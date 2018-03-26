@@ -1,4 +1,8 @@
 module.exports = {
+	rules: {
+		'es5/no-es6-methods': 'off',
+		'glip/no-es6-methods': 'error',
+	},
 	env: {
 		node: true,
 	},
