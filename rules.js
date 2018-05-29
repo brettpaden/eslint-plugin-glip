@@ -12,7 +12,7 @@ module.exports = {
 						if (char === '_' || Number.isFinite(parseInt(char, 10))) {
 							continue;
 						}
-						if (char === char.toUpperCase()) {
+						if (char === char.toUpperCase() && char !== char.toLowerCase()) {
 							context.report(node, 'Variables may not contain camelCase');
 						}
 					}
@@ -155,7 +155,7 @@ module.exports = {
 				let function_name;
 				let invoking_object;
 
-				if (callee_node && callee_node.property && callee_node.property.name) {
+				if (callee_node && callee_node.property) {
 					function_name = callee_node.property.name;
 
 					if (es6_functions.indexOf(function_name) === -1) {
