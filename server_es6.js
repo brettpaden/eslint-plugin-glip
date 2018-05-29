@@ -4,6 +4,14 @@ module.exports = {
 		'prefer-template': 'warn',
 		'prefer-arrow-callback': 'warn',
 		'object-shorthand': ['error', 'methods'],
+		'import/no-extraneous-dependencies': [
+			'error',
+			{
+				devDependencies: true,
+				optionalDependencies: false,
+				peerDependencies: false
+			}
+		],
 	},
 	env: {
 		node: true,
@@ -15,6 +23,5 @@ module.exports = {
 	extends: [
 		'airbnb-base',
 		'plugin:glip/base',
-	],
-	globals: require('./server_globals.js')
+	]
 };

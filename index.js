@@ -7,15 +7,12 @@ module.exports = {
 			rules: {
 				'glip/no-camelcase': 'error',
 				'glip/no-func-param-named-arguments': 'error',
-				'spaced-comment': 'off',
-				'no-tabs': 'off',
-				indent: ['error', 'tab', { SwitchCase: 1 }],
-				camelcase: 'off',
-				'new-cap': 'off', // i.e. Errors.Invalid_Type() should only be used if Errors.Invalid_Type() is a constructor
-				'prefer-destructuring': 'off',
+				'import/newline-after-import': 'off',
+				'import/no-dynamic-require': 'off',
+				'arrow-body-style': 'off',
 				'arrow-parens': ['error', 'always'],
-				'consistent-return': 'off',
-				'brace-style': ['error', 'stroustrup'], // Disallows  "} else {"
+				'brace-style': ['error', 'stroustrup'],
+				camelcase: 'off',
 				'comma-dangle': ['error', {
 					arrays: 'only-multiline',
 					objects: 'only-multiline',
@@ -23,6 +20,11 @@ module.exports = {
 					exports: 'always',
 					functions: 'never'
 				}],
+				'consistent-return': 'off',
+				curly: 'error',
+				'func-style': 'off',
+				'global-require': 'off',
+				indent: ['error', 'tab', { SwitchCase: 1 }],
 				'max-len': ['error', {
 					code: 100,
 					ignoreTrailingComments: true,
@@ -30,18 +32,14 @@ module.exports = {
 					ignoreTemplateLiterals: true,
 					ignoreRegExpLiterals: true
 				}],
-				'import/no-dynamic-require': 'off',
-				'space-before-function-paren': ['error', 'always'],
-				strict: 'off',
-				'import/newline-after-import': 'off',
-				'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
-				'no-loop-func': 'error', // Disallows function declarations inside of loops
 				'multiline-ternary': ['error', 'always-multiline'],
-				'no-continue': 'off', // Allows use of continue statements
-				'global-require': 'off',
-				'space-before-function-paren': ['error', 'never'],
-				'func-style': ['error', 'expression'],
+				'new-cap': 'off',
 				'no-buffer-constructor': 'off',
+				'no-continue': 'off',
+				'no-loop-func': 'error',
+				'no-param-reassign': 'off',
+				'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
+				'no-tabs': 'off',
 				'no-underscore-dangle': [
 					'error',
 					{
@@ -53,6 +51,11 @@ module.exports = {
 						enforceInMethodNames: true,
 					},
 				],
+				'prefer-destructuring': 'off', // Current Version of Node does not support
+				'prefer-spread': 'off', // Current Version of Node does not support
+				'space-before-function-paren': ['error', 'never'],
+				'spaced-comment': 'off',
+				strict: 'off',
 			},
 		},
 		server_es6: require('./server_es6.js'),
