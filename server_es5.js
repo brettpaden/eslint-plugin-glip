@@ -17,7 +17,10 @@ module.exports = {
 	parserOptions: {
 		ecmaVersion: 6,
 	},
-	plugins: ['glip'],
+	plugins: [
+		'glip',
+		'import',
+	],
 	extends: [
 		'airbnb-base/legacy',
 		'plugin:es5/no-es2015',
