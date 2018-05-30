@@ -13,13 +13,7 @@ module.exports = {
 				'arrow-parens': ['error', 'always'],
 				'brace-style': ['error', 'stroustrup'],
 				camelcase: 'off',
-				'comma-dangle': ['error', {
-					arrays: 'only-multiline',
-					objects: 'only-multiline',
-					imports: 'always',
-					exports: 'always',
-					functions: 'never'
-				}],
+				'comma-dangle': ['error', 'never'],
 				'consistent-return': 'off',
 				curly: 'error',
 				'func-style': 'off',
