@@ -45,8 +45,10 @@ module.exports = {
 						enforceInMethodNames: true,
 					},
 				],
+				'operator-linebreak': ['error', 'after'],
 				'prefer-destructuring': 'off', // Current Version of Node does not support
 				'prefer-spread': 'off', // Current Version of Node does not support
+				'prefer-rest-params': 'off', // Current Version of Node does not support
 				'space-before-function-paren': ['error', 'never'],
 				'spaced-comment': 'off',
 				strict: 'off',
