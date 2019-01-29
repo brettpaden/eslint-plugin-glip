@@ -18,6 +18,7 @@ module.exports = {
 				curly: 'error',
 				'func-style': 'off',
 				'global-require': 'off',
+				'id-length': ['error', { exceptions: ['L', '_', '$'] }],
 				indent: ['error', 'tab', { SwitchCase: 1 }],
 				'max-len': ['error', {
 					code: 100,
