@@ -12,6 +12,7 @@ module.exports = {
 				'arrow-body-style': 'off',
 				'arrow-parens': ['error', 'always'],
 				'brace-style': ['error', 'stroustrup'],
+				'class-methods-use-this': 'off',
 				camelcase: 'off',
 				'comma-dangle': ['error', 'never'],
 				'consistent-return': 'off',
