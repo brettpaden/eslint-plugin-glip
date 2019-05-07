@@ -28,6 +28,7 @@ module.exports = {
 					ignoreTemplateLiterals: true,
 					ignoreRegExpLiterals: true
 				}],
+				'max-statements-per-line': ['error', { max: 1 }],
 				'multiline-ternary': ['error', 'always-multiline'],
 				'new-cap': 'off',
 				'no-buffer-constructor': 'off',
